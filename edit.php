@@ -19,9 +19,9 @@ try {
     }
 
     if (!isset($kill)) {
-        $dsn = 'mysql:host=localhost;dbname=jtgreave_minesuperior';
-        $dbusername = "jtgreave_minesuperior";
-        $dbpassword = "minesuperior";
+        $dsn = 'mysql:host=localhost;dbname=ENTER_NAME';
+        $dbusername = "ENTER_USERNAME";
+        $dbpassword = "ENTER_PASSWORD";
 
         $dbh = new PDO($dsn, $dbusername, $dbpassword);
 
