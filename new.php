@@ -6,9 +6,9 @@ $message = "";
 if (isset($_POST["submit"])) {
     try {
         // Connect to database
-        $dsn = 'mysql:host=localhost;dbname=jtgreave_minesuperior';
-        $dbusername = "jtgreave_minesuperior";
-        $dbpassword = "minesuperior";
+        $dsn = 'mysql:host=localhost;dbname=ENTER_NAME';
+        $dbusername = "ENTER_USERNAME";
+        $dbpassword = "ENTER_PASSWORD";
         $dbh = new PDO($dsn, $dbusername, $dbpassword);
 
         // Nban Processing
@@ -91,7 +91,6 @@ if ($message != "") { //If the message variable was changed alert the user.
 }
 ?>
 
-<link rel="icon" href="https://minesuperior.jtgreaves.com/favicon.ico" sizes="any" type="image/ico">
 <link rel="stylesheet" href="stylesheet.css">
 <title> Evasion Checker </title>
 <style>
