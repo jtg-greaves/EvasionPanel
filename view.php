@@ -29,9 +29,9 @@ if (isset($_POST["submit"]) or isset($query["user"])) {
         // If it did not need to be killed
         if (!isset($kill)) {
             // Connect to the database and find the user
-            $dsn = 'mysql:host=localhost;dbname=jtgreave_minesuperior';
-            $dbusername = "jtgreave_minesuperior";
-            $dbpassword = "minesuperior";
+            $dsn = 'mysql:host=localhost;dbname=ENTER_NAME';
+            $dbusername = "ENTER_USER";
+            $dbpassword = "ENTER_PASSWORD";
             $dbh = new PDO($dsn, $dbusername, $dbpassword);
             $sql = "SELECT * FROM `evasion` WHERE nban ='" . $nbanuuid . "' LIMIT 1";
             $stmt = $dbh->query($sql);
