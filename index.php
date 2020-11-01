@@ -1,4 +1,3 @@
-<link rel="icon" href="https://minesuperior.jtgreaves.com/favicon.ico" sizes="any" type="image/ico">
 <link rel="stylesheet" href="stylesheet.css">
 
 <title> Evasion Checker </title>
